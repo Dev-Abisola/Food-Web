@@ -1,0 +1,313 @@
+* {
+    font-family: s;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container { 
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display:flex ;
+}
+
+
+ /***footer***/
+ .containerf {
+    width: auto;
+
+    background-color: black;
+    color:white ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0 auto;
+    padding: 0px 120px 0px 80px;
+
+ }
+ .footer-1 h2 {
+margin-bottom: 2rem;
+font-family: verdana;
+font-size: 13px;
+ }
+ 
+ .footer-1 h3 {
+margin-bottom: 2rem;
+font-family: Verdana ;
+font-size:13px ;
+ }
+
+ .footer-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    
+ }
+ 
+ .footer-a {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-left: 2rem;
+    margin-top: 6rem;
+ }
+
+ .footer-b{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-left: 1rem;
+    margin-top: 6rem;
+    
+ }
+
+ .footer-1 a{
+    color: rgb(212, 204, 204);
+    text-decoration: none;
+    margin-bottom: 1px;
+ }
+
+ .footer-a a{
+    color: rgb(212, 204, 204);
+    text-decoration: none;
+    margin-bottom: 1px;
+    
+ }
+
+ .footer-b a{
+    color: rgb(212, 204, 204);
+    text-decoration: none;
+    margin-bottom: 1px;
+ }
+
+.footer-1 a:hover{
+    text-decoration: underline;
+    transition: 0.3s ease-out;
+    color: white;
+}
+
+.footer-a a:hover{
+    text-decoration: underline;
+    transition: 0.3s ease-out;
+    color: white;
+}
+
+.footer-b a:hover{
+    text-decoration: underline;
+    transition:0.3s ease-out ;
+    color: white;
+}
+
+.footer1{
+    background-color: black;
+    width: auto;
+    word-spacing: 2px;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding: 0px 10px 0px 30px;
+}
+
+.footer1 a:hover{
+    text-decoration: underline;
+    color: #FFFFFF;
+    transition:0.3s ease-out ;
+}
+  
+
+.copy{
+    color: #FFFFFF;
+    display:inline
+    
+}
+/**header**/
+.header { 
+    background-image:url("top-background.jpg") ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 36rem;
+    margin:0;
+    padding: 0;
+}
+
+.text-center {
+    text-align:center;
+   
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+    
+}
+
+
+.text-white {
+    color: white;
+
+}
+
+.btn {
+    padding: 12px 12px;
+    border-radius: 20px;
+    margin:14px;
+}
+
+.email {
+     margin: 12px;
+    
+}
+
+.underline {
+    text-decoration: underline;
+    font-size: 13px;
+
+}
+
+.bg-white {
+    background-color: #FFFFFF;
+    color: rgb(17, 17, 17);
+}
+
+.bg-primary {
+    background-color: red;
+}
+
+.nav {
+    padding-top: 25px;
+
+}
+
+a {
+    color:white ;
+    text-decoration: none;
+}
+
+
+a.two { color: black;
+background-color: white;
+border-radius: 10px;
+padding: 10px;
+}
+
+ 
+.sect{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sect2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+h2 {font-size: 40px;
+}
+
+p {
+    font-size: 16px ;
+    font-family: Verdana;
+ }
+
+ .food {padding: 0px 70px 0px 30px;
+    padding-right: 1rem;
+ }
+
+ .food2 { padding-right: 1rem;
+    padding: 0px 20px 0px 30px;
+    
+
+ }
+
+.sect2 > .div1 {
+    flex-grow: 1;
+    padding-right:20px;
+
+
+}
+
+.sect2 > .div2 {
+ flex-grow: 1;
+}
+
+.sect3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sech {
+    background-color:rgb(252, 239, 239);
+}
+
+.sect3 > .div1 {
+    flex-grow: 1;
+}
+
+.sect3 > .div2 {
+    flex-grow: 2;
+    padding-left: 20px;
+}
+
+h1 { 
+    
+    text-align: center;
+    color:white ;
+    font-size: 60px;
+    margin-top:104px ;
+
+}
+
+.image { 
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.rider {
+    text-align: center;
+}
+
+.rider img{width:150px ;
+          height: 200px;
+}
+
+h1.rider { 
+    color: black;
+    font-size:30px ;
+}
+.rider a{ 
+    color:red ;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+
+/* .{ padding: 50px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+ /*.footer {
+    width: 80%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+} */
+
